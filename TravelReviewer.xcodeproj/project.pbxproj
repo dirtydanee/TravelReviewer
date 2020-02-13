@@ -9,11 +9,36 @@
 /* Begin PBXBuildFile section */
 		18BD595F23F48F0500503261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD595E23F48F0500503261 /* AppDelegate.swift */; };
 		18BD596123F48F0500503261 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD596023F48F0500503261 /* SceneDelegate.swift */; };
-		18BD596323F48F0500503261 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD596223F48F0500503261 /* ContentView.swift */; };
 		18BD596523F48F0700503261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BD596423F48F0700503261 /* Assets.xcassets */; };
 		18BD596823F48F0700503261 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BD596723F48F0700503261 /* Preview Assets.xcassets */; };
 		18BD596B23F48F0700503261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BD596923F48F0700503261 /* LaunchScreen.storyboard */; };
-		18BD597623F48F0700503261 /* TravelReviewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD597523F48F0700503261 /* TravelReviewerTests.swift */; };
+		18BD597623F48F0700503261 /* ReviewListsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD597523F48F0700503261 /* ReviewListsViewModelTests.swift */; };
+		18BD598223F4900D00503261 /* DateFormatter+TravelReviewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD598123F4900D00503261 /* DateFormatter+TravelReviewer.swift */; };
+		18BD598523F4905E00503261 /* ReviewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD598423F4905E00503261 /* ReviewsListView.swift */; };
+		18BD598823F4908E00503261 /* ReviewCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD598723F4908E00503261 /* ReviewCardView.swift */; };
+		18BD598A23F490A100503261 /* DateDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD598923F490A100503261 /* DateDisplayView.swift */; };
+		18BD598C23F493B800503261 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD598B23F493B800503261 /* ActivityIndicator.swift */; };
+		18BD598E23F493EB00503261 /* ActivityIndicatorRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD598D23F493EB00503261 /* ActivityIndicatorRowView.swift */; };
+		18BD599023F4957500503261 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD598F23F4957500503261 /* Review.swift */; };
+		18BD599323F4959F00503261 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD599223F4959F00503261 /* Author.swift */; };
+		18BD599523F4964E00503261 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD599423F4964E00503261 /* Rating.swift */; };
+		18BD599823F496B600503261 /* ReviewsNetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD599723F496B600503261 /* ReviewsNetworkResponse.swift */; };
+		18BD599A23F4978F00503261 /* NetworkingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD599923F4978F00503261 /* NetworkingClient.swift */; };
+		18BD599C23F4989B00503261 /* ReviewsNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD599B23F4989B00503261 /* ReviewsNetworkRequest.swift */; };
+		18BD599F23F4A40700503261 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD599E23F4A40700503261 /* Sorting.swift */; };
+		18BD59A123F4A42300503261 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD59A023F4A42300503261 /* Endpoint.swift */; };
+		18BD59A423F4BA3200503261 /* ReviewRatingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD59A323F4BA3200503261 /* ReviewRatingsView.swift */; };
+		18BD59A623F4BA5800503261 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD59A523F4BA5800503261 /* ProfileView.swift */; };
+		18BD59AA23F4BAC300503261 /* ReviewCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD59A923F4BAC300503261 /* ReviewCardViewModel.swift */; };
+		18BD59AE23F4BB0E00503261 /* ReviewListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD59AD23F4BB0E00503261 /* ReviewListViewModel.swift */; };
+		18BD59B123F4BF1200503261 /* ProfileInitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD59B023F4BF1200503261 /* ProfileInitialView.swift */; };
+		18BD59B323F5252200503261 /* ProfileImageNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD59B223F5252200503261 /* ProfileImageNetworkRequest.swift */; };
+		18BD59B523F5389400503261 /* ProfilePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD59B423F5389400503261 /* ProfilePictureView.swift */; };
+		18BD59B723F538AE00503261 /* ProfilePictureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD59B623F538AE00503261 /* ProfilePictureViewModel.swift */; };
+		18BD59BA23F5427600503261 /* SortingSpecifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD59B923F5427600503261 /* SortingSpecifierView.swift */; };
+		18BD59BC23F5659100503261 /* JSONDecoder+TravelReviewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD59BB23F5659100503261 /* JSONDecoder+TravelReviewer.swift */; };
+		18BD59BE23F5DC2F00503261 /* ReviewTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD59BD23F5DC2F00503261 /* ReviewTextView.swift */; };
+		18BD59C023F66CA200503261 /* NetworkingClientImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD59BF23F66CA200503261 /* NetworkingClientImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +55,39 @@
 		18BD595B23F48F0500503261 /* TravelReviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelReviewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BD595E23F48F0500503261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18BD596023F48F0500503261 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18BD596223F48F0500503261 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18BD596423F48F0700503261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18BD596723F48F0700503261 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18BD596A23F48F0700503261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18BD596C23F48F0700503261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18BD597123F48F0700503261 /* TravelReviewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelReviewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18BD597523F48F0700503261 /* TravelReviewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelReviewerTests.swift; sourceTree = "<group>"; };
+		18BD597523F48F0700503261 /* ReviewListsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListsViewModelTests.swift; sourceTree = "<group>"; };
 		18BD597723F48F0700503261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BD598123F4900D00503261 /* DateFormatter+TravelReviewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+TravelReviewer.swift"; sourceTree = "<group>"; };
+		18BD598423F4905E00503261 /* ReviewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsListView.swift; sourceTree = "<group>"; };
+		18BD598723F4908E00503261 /* ReviewCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCardView.swift; sourceTree = "<group>"; };
+		18BD598923F490A100503261 /* DateDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDisplayView.swift; sourceTree = "<group>"; };
+		18BD598B23F493B800503261 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		18BD598D23F493EB00503261 /* ActivityIndicatorRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorRowView.swift; sourceTree = "<group>"; };
+		18BD598F23F4957500503261 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		18BD599223F4959F00503261 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		18BD599423F4964E00503261 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		18BD599723F496B600503261 /* ReviewsNetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsNetworkResponse.swift; sourceTree = "<group>"; };
+		18BD599923F4978F00503261 /* NetworkingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingClient.swift; sourceTree = "<group>"; };
+		18BD599B23F4989B00503261 /* ReviewsNetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsNetworkRequest.swift; sourceTree = "<group>"; };
+		18BD599E23F4A40700503261 /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
+		18BD59A023F4A42300503261 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		18BD59A323F4BA3200503261 /* ReviewRatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewRatingsView.swift; sourceTree = "<group>"; };
+		18BD59A523F4BA5800503261 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		18BD59A923F4BAC300503261 /* ReviewCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCardViewModel.swift; sourceTree = "<group>"; };
+		18BD59AD23F4BB0E00503261 /* ReviewListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewListViewModel.swift; sourceTree = "<group>"; };
+		18BD59B023F4BF1200503261 /* ProfileInitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInitialView.swift; sourceTree = "<group>"; };
+		18BD59B223F5252200503261 /* ProfileImageNetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageNetworkRequest.swift; sourceTree = "<group>"; };
+		18BD59B423F5389400503261 /* ProfilePictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePictureView.swift; sourceTree = "<group>"; };
+		18BD59B623F538AE00503261 /* ProfilePictureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePictureViewModel.swift; sourceTree = "<group>"; };
+		18BD59B923F5427600503261 /* SortingSpecifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingSpecifierView.swift; sourceTree = "<group>"; };
+		18BD59BB23F5659100503261 /* JSONDecoder+TravelReviewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+TravelReviewer.swift"; sourceTree = "<group>"; };
+		18BD59BD23F5DC2F00503261 /* ReviewTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTextView.swift; sourceTree = "<group>"; };
+		18BD59BF23F66CA200503261 /* NetworkingClientImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingClientImpl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +131,12 @@
 			children = (
 				18BD595E23F48F0500503261 /* AppDelegate.swift */,
 				18BD596023F48F0500503261 /* SceneDelegate.swift */,
-				18BD596223F48F0500503261 /* ContentView.swift */,
-				18BD596423F48F0700503261 /* Assets.xcassets */,
-				18BD596923F48F0700503261 /* LaunchScreen.storyboard */,
-				18BD596C23F48F0700503261 /* Info.plist */,
+				18BD59C123F66CA800503261 /* Services */,
+				18BD59AC23F4BAD000503261 /* ViewModels */,
+				18BD599123F4957B00503261 /* Models */,
+				18BD598623F4906200503261 /* Views */,
+				18BD598323F4901200503261 /* Utilities */,
+				18BD598023F48FCC00503261 /* Supporting Files */,
 				18BD596623F48F0700503261 /* Preview Content */,
 			);
 			path = TravelReviewer;
@@ -101,10 +153,129 @@
 		18BD597423F48F0700503261 /* TravelReviewerTests */ = {
 			isa = PBXGroup;
 			children = (
-				18BD597523F48F0700503261 /* TravelReviewerTests.swift */,
+				18BD597523F48F0700503261 /* ReviewListsViewModelTests.swift */,
 				18BD597723F48F0700503261 /* Info.plist */,
 			);
 			path = TravelReviewerTests;
+			sourceTree = "<group>";
+		};
+		18BD598023F48FCC00503261 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18BD596423F48F0700503261 /* Assets.xcassets */,
+				18BD596923F48F0700503261 /* LaunchScreen.storyboard */,
+				18BD596C23F48F0700503261 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18BD598323F4901200503261 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				18BD598123F4900D00503261 /* DateFormatter+TravelReviewer.swift */,
+				18BD59BB23F5659100503261 /* JSONDecoder+TravelReviewer.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		18BD598623F4906200503261 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18BD598423F4905E00503261 /* ReviewsListView.swift */,
+				18BD59B923F5427600503261 /* SortingSpecifierView.swift */,
+				18BD59A223F4BA1B00503261 /* ReviewCard */,
+				18BD59AF23F4BB8700503261 /* Activity */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18BD599123F4957B00503261 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18BD599623F4969F00503261 /* Review */,
+				18BD599D23F4A3F600503261 /* Networking */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18BD599623F4969F00503261 /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				18BD598F23F4957500503261 /* Review.swift */,
+				18BD599223F4959F00503261 /* Author.swift */,
+				18BD599423F4964E00503261 /* Rating.swift */,
+			);
+			path = Review;
+			sourceTree = "<group>";
+		};
+		18BD599D23F4A3F600503261 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				18BD599723F496B600503261 /* ReviewsNetworkResponse.swift */,
+				18BD599B23F4989B00503261 /* ReviewsNetworkRequest.swift */,
+				18BD59B223F5252200503261 /* ProfileImageNetworkRequest.swift */,
+				18BD599E23F4A40700503261 /* Sorting.swift */,
+				18BD59A023F4A42300503261 /* Endpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		18BD59A223F4BA1B00503261 /* ReviewCard */ = {
+			isa = PBXGroup;
+			children = (
+				18BD598723F4908E00503261 /* ReviewCardView.swift */,
+				18BD598923F490A100503261 /* DateDisplayView.swift */,
+				18BD59A323F4BA3200503261 /* ReviewRatingsView.swift */,
+				18BD59BD23F5DC2F00503261 /* ReviewTextView.swift */,
+				18BD59B823F538F900503261 /* Profile */,
+			);
+			path = ReviewCard;
+			sourceTree = "<group>";
+		};
+		18BD59AC23F4BAD000503261 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				18BD59AD23F4BB0E00503261 /* ReviewListViewModel.swift */,
+				18BD59A923F4BAC300503261 /* ReviewCardViewModel.swift */,
+				18BD59B623F538AE00503261 /* ProfilePictureViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		18BD59AF23F4BB8700503261 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				18BD598D23F493EB00503261 /* ActivityIndicatorRowView.swift */,
+				18BD598B23F493B800503261 /* ActivityIndicator.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		18BD59B823F538F900503261 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				18BD59A523F4BA5800503261 /* ProfileView.swift */,
+				18BD59B423F5389400503261 /* ProfilePictureView.swift */,
+				18BD59B023F4BF1200503261 /* ProfileInitialView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		18BD59C123F66CA800503261 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				18BD59C223F66CAF00503261 /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		18BD59C223F66CAF00503261 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				18BD599923F4978F00503261 /* NetworkingClient.swift */,
+				18BD59BF23F66CA200503261 /* NetworkingClientImpl.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,8 +380,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				18BD595F23F48F0500503261 /* AppDelegate.swift in Sources */,
+				18BD59B723F538AE00503261 /* ProfilePictureViewModel.swift in Sources */,
+				18BD598A23F490A100503261 /* DateDisplayView.swift in Sources */,
+				18BD59B123F4BF1200503261 /* ProfileInitialView.swift in Sources */,
+				18BD599A23F4978F00503261 /* NetworkingClient.swift in Sources */,
+				18BD59BE23F5DC2F00503261 /* ReviewTextView.swift in Sources */,
+				18BD59C023F66CA200503261 /* NetworkingClientImpl.swift in Sources */,
+				18BD59BA23F5427600503261 /* SortingSpecifierView.swift in Sources */,
+				18BD599023F4957500503261 /* Review.swift in Sources */,
+				18BD598223F4900D00503261 /* DateFormatter+TravelReviewer.swift in Sources */,
+				18BD59B323F5252200503261 /* ProfileImageNetworkRequest.swift in Sources */,
+				18BD599323F4959F00503261 /* Author.swift in Sources */,
+				18BD599C23F4989B00503261 /* ReviewsNetworkRequest.swift in Sources */,
+				18BD59A423F4BA3200503261 /* ReviewRatingsView.swift in Sources */,
+				18BD59BC23F5659100503261 /* JSONDecoder+TravelReviewer.swift in Sources */,
+				18BD59AA23F4BAC300503261 /* ReviewCardViewModel.swift in Sources */,
+				18BD59AE23F4BB0E00503261 /* ReviewListViewModel.swift in Sources */,
+				18BD599823F496B600503261 /* ReviewsNetworkResponse.swift in Sources */,
+				18BD599523F4964E00503261 /* Rating.swift in Sources */,
+				18BD59A623F4BA5800503261 /* ProfileView.swift in Sources */,
+				18BD599F23F4A40700503261 /* Sorting.swift in Sources */,
+				18BD59B523F5389400503261 /* ProfilePictureView.swift in Sources */,
+				18BD59A123F4A42300503261 /* Endpoint.swift in Sources */,
+				18BD598823F4908E00503261 /* ReviewCardView.swift in Sources */,
+				18BD598C23F493B800503261 /* ActivityIndicator.swift in Sources */,
 				18BD596123F48F0500503261 /* SceneDelegate.swift in Sources */,
-				18BD596323F48F0500503261 /* ContentView.swift in Sources */,
+				18BD598E23F493EB00503261 /* ActivityIndicatorRowView.swift in Sources */,
+				18BD598523F4905E00503261 /* ReviewsListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BD597623F48F0700503261 /* TravelReviewerTests.swift in Sources */,
+				18BD597623F48F0700503261 /* ReviewListsViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,19 +558,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"TravelReviewer/Preview Content\"";
-				DEVELOPMENT_TEAM = V6UNSDB9C4;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TravelReviewer/Info.plist;
+				INFOPLIST_FILE = "TravelReviewer/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dirtylabs.TravelReviewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -382,19 +579,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_ASSET_PATHS = "\"TravelReviewer/Preview Content\"";
-				DEVELOPMENT_TEAM = V6UNSDB9C4;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = TravelReviewer/Info.plist;
+				INFOPLIST_FILE = "TravelReviewer/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dirtylabs.TravelReviewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
